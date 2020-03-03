@@ -5,6 +5,7 @@
 
 header{
 	background-color:#f37520;
+	min-height: 64px;
 }
 
 section nav{
@@ -13,4 +14,10 @@ section nav{
 
 footer{
 	background-color: #454545;
+}
+
+@media (min-width: 576px){
+	section, section nav{
+		height: calc(100vh - 260px);
+	}
 }
